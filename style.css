@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+
+#nav {
+    background-color: #c7c5c5;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.textnav {
+    color: black;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+#tab1 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tab2 {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#rowD {
+    border-top: 0;
+    border-bottom: 0;
+    background-color: #c7c5c5;
+}
+
+#botao {
+    border-radius: 10px;
+    border: orangered;
+    color: white;
+    font-family: Poppins;
+    background-color: orangered;
+    cursor: pointer;
+    display: inline;
+    width: 100px;
+    height: 23px;
+}
+
+#linha {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historico div.white {
+    background-color: whitesmoke;
+}
+
+#historico div.grey {
+    background-color: grey;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: palevioletred;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="csscadastro.css" type="text/css">
+    <title>cadastro Masti</title>
+</head>
+<script>
+
+
+    async function signUp() {
+        const firstname = document.getElementById('firstname')
+        const secondname = document.getElementById('insertsecondname')
+        const birthday = document.getElementById('insertbirthday')
+        const cpf = document.getElementById('cpf')
+        const email = document.getElementById('email')
+        const password = document.getElementById('password')
+
+
+        const user = {
+            name: firstname.value,
+            surname: secondname.value,
+            birthdate: birthday.value,
+            cpf: cpf.value,
+            email: email.value,
+            pasword: password.value
+
+        }
+        console.log(user);
+
+
+        const options = {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        }
+        const resp = await fetch("http://localhost:4000/users/signUp", options)
+        console.log(JSON.stringify(user))
+        console.log(await resp.json())
+    }
+    console.log();
+
+
+</script>
+
+<body>
+    <h1 class="Title">Cadastro</h1>
+    <form>
+
+        <label class="name">Nome</label>
+        <p><input id="firstname" placeholder="Digite seu primeiro nome"></input></p>
+
+        <label class="secondname">Sobrenome</label>
+        <p><input id="insertsecondname" placeholder="Digite seu sobrenome"></input></p>
+
+        <p><label class="birthday">Data de Nascimento</label></p>
+        <input id="insertbirthday" placeholder="Selecione a data de Nascimento"> <label class="cpf">CPF</label> <input
+            id="cpf" placeholder="Digite seu CPF">
+
+        <p><label class="email">Email</label></p>
+        <p><input id="email" placeholder="digite seu email"></p>
+
+        <p><label class="senha">Senha</label></p>
+        <p><input id="password" placeholder="digite sua senha"></p>
+
+        <p><label class="repita">Repita sua senha</label></p>
+        <p><input id="repeatpassword" placeholder="repita sua senha"></p>
+
+        <button class="cadastrar" onclick="signUp()">cadastrar</button>
+
+    </form>
+</body>
+
+</html>

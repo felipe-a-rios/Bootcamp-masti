@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Poppins;
+}
+
+.Title {
+    width: 108px;
+    height: 32px;
+    left: 590.38px;
+    top: 186.61px;
+    /* heading-2 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: -1px;
+    /* blue */
+    color: #2F71FD;
+}
+
+.name {
+    width: 49px;
+    height: 24px;
+    left: 590.45px;
+    top: 259.48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+
+#firstname {
+    font-family: Poppins;
+    color: black;
+    width: 100%;
+    width: 738.95px;
+    height: 40px;
+    left: 590.52px;
+    top: 289.24px;
+    /* Gray 5 */
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.secondname {
+    width: 96px;
+    height: 24px;
+    left: 590.09px;
+    top: 350.73px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+
+#insertsecondname {
+    font-family: Poppins;
+    color: black;
+    width: 738.95px;
+    height: 40px;
+    left: 590.52px;
+    top: 380.49px;
+    /* Gray 5 */
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.cadastrar {
+    position: relative;
+    text-align: center;
+    color: #E0E0E0;
+    background-color: #2F71FD;
+    border-radius: 6px;
+    border: 100px solid #2F71FD;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    left: 30%;
+    bottom: 5px;
+}
+
+.birthday {
+    color: #BDBDBD;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#insertbirthday {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Poppins;
+    color: #E0E0E0;
+    width: 359.26px;
+    height: 40px;
+    left: 590.52px;
+    top: 471.74px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 359.26px;
+    height: 40px;
+}
+
+.cpf {
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    left: 380px;
+    top: 260.98px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+#cpf {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E0E0E0;
+    height: 40px;
+    width: 359.26px;
+}
+
+.email {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+#email {
+    width: 738.95px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
+
+.senha {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+
+#password {
+    width: 738.95px;
+    height: 40px;
+    /* Gray 5 */
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    /* Gray 5 */
+    color: #E0E0E0;
+}
+
+.repita {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+
+#repeatpassword {
+    width: 738.95px;
+    height: 40px;
+    /* Gray 5 */
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    /* Gray 5 */
+    color: #E0E0E0;
+}
